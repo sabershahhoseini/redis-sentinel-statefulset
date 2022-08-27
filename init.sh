@@ -1,3 +1,4 @@
+cd manifests
 kubectl create ns redis
 kubectl apply -f sc.yaml
 kubectl apply -f pv.yaml
