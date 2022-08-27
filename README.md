@@ -9,6 +9,7 @@ Clone the repo:
 Edit the **./manifests/redis-configmap.yaml** manifest and provide your own password for redis master and slaves by editing these two lines and changing **a-very-complex-password**:
 
  `masterauth a-very-complex-password`
+ 
  `requirepass a-very-complex-password`
  
 Then, run the initializer script:
