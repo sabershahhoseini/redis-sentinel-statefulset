@@ -12,9 +12,6 @@ Edit the **./manifests/redis-configmap.yaml** manifest and provide your own pass
 
 [![Password](https://i.imgur.com/locKsUZ.png "Password")](https://i.imgur.com/locKsUZ.png "Password")
 
- `masterauth a-very-complex-password`
- 
- `requirepass a-very-complex-password`
  
 Then, run the initializer script:
 
