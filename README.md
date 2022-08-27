@@ -5,7 +5,7 @@ Deploy Redis Statefulset Cluster on Kubernetes with 3 sentinel nodes, 1 master a
 
 Clone the repo:
 
-`git clone 'https://github.com/sabershahhoseini/redis-statefulset-cluster'`
+`git clone 'https://github.com/sabershahhoseini/redis-sentinel-statefulset'`
 
 Edit the **./manifests/redis-configmap.yaml** manifest and provide your own password for redis master and slaves by editing these two lines and changing **a-very-complex-password**:
 
