@@ -12,6 +12,7 @@ Edit the **./manifests/redis-configmap.yaml** manifest and provide your own pass
 
 [![Password](https://i.imgur.com/locKsUZ.png "Password")](https://i.imgur.com/locKsUZ.png "Password")
 
+Do the same thing for **./manifests/sentinel-statefulset.yaml** file. Change the `REDIS_PASSWORD` env and set your own password.
  
 Then, run the initializer script:
 
